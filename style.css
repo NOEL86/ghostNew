@@ -1,0 +1,94 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/* nav ul a,
+nav .brand-logo {
+  color: #444;
+} */
+
+p {
+  line-height: 2rem;
+  font-family: 'Noticia Text', serif;
+}
+h4 {
+  font-family: 'Noticia Text', serif;
+}
+
+.sidenav-trigger {
+  color: darkred;
+}
+
+.logo {
+  width: 40%;
+  z-index: 99;
+  margin-top: 0;
+  padding-top: 15%;
+}
+#topRow {
+  margin-bottom: 0;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+}
+.parallax-container .section {
+  width: 100%;
+}
+#pPic {
+  width: 80%;
+  opacity: 0.5;
+}
+#whiteSpace {
+  height: 200px;
+}
+#more1,
+#more2,
+#more3 {
+  display: none;
+}
+
+#myBtn1,
+#myBtn2,
+#myBtn3 {
+  background-color: white;
+  border: none;
+}
+#tagline {
+  color: white;
+  margin-top: 0;
+  padding-bottom: 35%;
+}
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: rgb(31, 35, 37);
+}
